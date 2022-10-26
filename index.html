@@ -15,11 +15,18 @@
         <main>
             <div id="content" class="container-fluid h-100 d-flex align-items-center justify-content-center">
                 <div class="col-lg-5 text-center" id="quote-box">
-                    <h1 id="quote-text" class=""></h1>
-                    <h2 id="quote-author"></h1>
-                        <div id="quote-actions">
-                            <button class="btn btn-primary" id="new-quote">New Quote</button>
-                        </div>
+                    <div class="row">
+                        <i class="fa-solid fa-quote-left col-1 fa-2x"></i>
+                        <h1 id="quote-text" class="col"></h1>
+                        <h2 id="quote-author"></h1>
+                            <div id="quote-actions" class="row ">
+                                <span class="col col-3"></span>
+                                <button class="btn btn-primary col col-4" id="new-quote">New Quote</button>
+                                <a class="col col-2" id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                                <a class="col col-1" id="tumblr-quote" href="https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=Random%20Quote%20Generator&content=Random%20Quote%20Generator&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button" target="_blank"><i class="fa-brands fa-tumblr fa-2x"></i></a>
+                            </div>
+                    </div>
+                   
                     
                 </div>
                 

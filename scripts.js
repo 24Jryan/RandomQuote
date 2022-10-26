@@ -17,6 +17,8 @@ async function displayQuote() {
   quoteAuthor.innerHTML = "- " + quote.author;
 }
 
+
+
 //add event listener to the button
 $(document).ready(function() {
   displayQuote();

@@ -34,7 +34,16 @@ body {
 }
 
 #new-quote {
-    margin-top: 15px;
-    padding: 5px 10px; 
+
     font-size: 15px;
+}
+
+#quote-actions {
+    margin-top: 10px;
+}
+
+
+#quote-author {
+    margin-top: 10px;
+    text-align: right;
 }
