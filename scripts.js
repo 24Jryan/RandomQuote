@@ -1,3 +1,6 @@
+// Powered by Quotable 
+// https://github.com/lukePeavey/quotable
+
 const apiURL = "https://api.quotable.io/";
 const getQuoteURL = apiURL + "random";
 
